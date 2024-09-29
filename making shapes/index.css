@@ -1,0 +1,60 @@
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
+h1{
+    color: red;
+}
+.triangle{
+width: 0;
+height: 0;
+border-left: 50px solid black; 
+border-right: 50px solid black;
+border-bottom: 100px solid red;
+}
+.triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 50px solid black;
+    border-bottom: 50px solid black;
+    border-left: 100px solid pink;
+}
+.diamond{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transform: rotate(45deg);
+}
+.star{
+    display: block;
+    color: aqua;
+    position: relative;
+    height: 0;
+    width: 0;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid aqua;
+    border-left: 50px solid transparent;
+    transform: rotate(35deg);
+
+}
+.star:before, .star:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid aqua;
+    border-left: 50px solid transparent;
+
+}
+.star:before{
+    transform: rotate(-35deg);
+
+}
+.star:after{
+    transform: rotate(35deg);
+}
