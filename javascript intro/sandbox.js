@@ -8,5 +8,10 @@ const nullVariable = "null";
 
 // console.log(typeof name);
 console.log(typeof age);
-console.log(typeof hobbies)
+console.log(typeof hobbies);
+console.log(typeof isStudent);
+console.log(typeof address);
+console.log(typeof nullVariable);
+console.log(undefinedVariable);
+
  
