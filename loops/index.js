@@ -1,20 +1,13 @@
-// const number = 55;
+document.querySelector("button").addEventListener("click",function(){
+    // input value
+    let inputValue = document.querySelector("input").value;
 
-// if (number > 0){
-//     console.log(`${number} is positive`)}
-
-// else if (number< 0){
-//     console.log(`${number} is negative`)
-     
-// }else{
-//     console.log(`${number} is zero`)}
-
-// f
-// function sum(num1,num2){
-//     return num1+num2;
-// }       
-//   const result= sum(34,45) ;
-// console.log(result);
-// for(let i=1; i<=10; i++){
-//     console.log(i)
-// }
+    // first list item
+    const liElement = document.createElement('li');
+    liElement.innerText = inputValue;
+    const ulElement = document.querySelector('ol');
+    ulElement.appendChild(liElement);
+    // firstListItem = document.querySelector("li").firstChild;
+    // replace the text
+    firstListItem.textContent = this.inputValue;
+})
