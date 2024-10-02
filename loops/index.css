@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.header-container{
+    box-sizing:border-box;
+    background-color: green; 
+} 
+.header{
+
+    background-color: rgb(16, 124, 16);
+    text-align: center;
+    text-shadow: -1px -1px rgb(48, 32, 32);
+    
+}
+.add-list-container {
+    border: 1px solid rgb(0, 255, 204);
+    padding: 0 150px;
+    height: 100vh;
+
+}
+.add-items{
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: rgb(69, 75, 75);
+}
+ul {
+    /* border: 2px solid rgb(125, 23, 23); */
+    /* display:flex; */
+     /* display: block; */
+     padding: 0;
+    
+}
+
+li {
+    display: flex;
+    line-height: 30px;
+    border-bottom: 2px solid black
+
+}

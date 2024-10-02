@@ -15,6 +15,6 @@
 // }       
 //   const result= sum(34,45) ;
 // console.log(result);
-for(let i=1; i<=10; i++){
-    console.log(i)
-}
+// for(let i=1; i<=10; i++){
+//     console.log(i)
+// }
