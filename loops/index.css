@@ -32,7 +32,7 @@ ul {
 }
 
 li {
-    display: flex;
+    /* display: flex; */
     line-height: 30px;
     border-bottom: 2px solid black
 
