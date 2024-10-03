@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(206, 224, 215);
+}
+p{
+    text-align: center;
+    border: 2px solid grey;
+    color: rgb(193, 49, 49);
+    background-color: rgb(242, 235, 224);
+}
+button{
+    border-radius: 5px;
+    /* display: inline; */
+    /* text-align: center; */
+    display: block;
+    margin: auto;
+    background-color: rgb(84, 131, 131);
+    color: whitesmoke;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: brown;
+}
