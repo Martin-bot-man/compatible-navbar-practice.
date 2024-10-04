@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-image:linear-gradient(45deg, red, blue);
+
+    font-family: "roboto",Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 400px;
+    width: 100px;
+}
+.result img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: darksalmon;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+
+}
